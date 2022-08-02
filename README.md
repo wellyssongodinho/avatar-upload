@@ -121,6 +121,7 @@ You can specify additional CLI options like `--port` or `--https`. For a full li
 ```
 It is important to note that `vite preview` is intended for previewing the build locally and not meant as a production server.
 
+<a class="demo-link" href="https://react-zoom.vercel.app/" target="_blank" rel="noopener">View Demo</a>
 
 ## Commands
 
@@ -128,7 +129,6 @@ It is important to note that `vite preview` is intended for previewing the build
 - `build`: creates the production build version
 - `preview`: runs the preview project at `localhost:8080`
 - `test`: executes all tests
-- `test:watch`: executes all tests in --watch mode
 
 [Node.js]: https://img.shields.io/badge/Node-20232A?style=for-the-badge&logo=nodedotjs&logoColor=#339933
 [Node-url]: https://nodejs.org/
