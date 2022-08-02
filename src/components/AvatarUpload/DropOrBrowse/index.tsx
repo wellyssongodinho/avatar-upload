@@ -40,9 +40,10 @@ export default function index ({description, fileType, inputRef, label, onChange
                 <Image />
                 <b>{label}</b>
             </WrapperLabel>
-            <span aria-label='Insert Image'>{description}</span>
+            <span aria-label='Input File'>{description}</span>
             <input
                 accept={fileType}
+                aria-label='input-file'
                 data-testid='input-file'
                 onChange={handleChangeInput}
                 ref={inputRef}

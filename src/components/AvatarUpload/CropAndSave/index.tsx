@@ -58,20 +58,6 @@ const theme = createTheme({
   },
 });
 
-const WrapperCloseIco = styled.div`
-  margin-left: 60px;
-  display: flex;
-  flex-shrink: 0;
-
-  div {
-    height: 15px;
-  }
-
-  svg {
-    cursor: pointer;
-  }
-`;
-
 interface Props {
   file?: File | null;
   imgRef: RefObject<HTMLDivElement>;

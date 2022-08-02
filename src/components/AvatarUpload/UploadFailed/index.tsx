@@ -3,13 +3,6 @@ import styled from 'styled-components';
 import Avatar from '../Avatar';
 import Close from '../Close';
 
-const TextWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  flex-shrink: 0;
-`;
-
 const WrapperFailedArea = styled.div`
   display: flex;
   justify-content: center;
@@ -29,21 +22,6 @@ const TryAgain = styled.a`
   text-decoration-line: underline;
   cursor: pointer;
 `;
-
-const WrapperIcoClose = styled.div`
-  margin-left: 60px;
-  display: flex;
-  flex-shrink: 0;
-
-  div {
-    height: 15px;
-  }
-
-  svg {
-    cursor: pointer;
-  }
-`;
-
 interface Props {
   errorDescription?: string;
   isFailed?: boolean;
