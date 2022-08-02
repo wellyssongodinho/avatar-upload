@@ -53,7 +53,7 @@ You can find the component's design [here](https://www.figma.com/file/aiiSV722Mg
 
 ## :rocket: Tecnologies
 
-This project was develop by using follow tecnologies:
+This project was developed using the following technologies:
 
 * [![Node][Node.js]][Node-url]
 * [![React][React.js]][React-url]
@@ -81,7 +81,7 @@ You can find the component's design [here](https://www.figma.com/file/aiiSV722Mg
 - Make commit of your updates: `git commit -m 'feat: <my feature>'`;
 - Faça push para a sua branch: `git push origin <my feature>`.
 
-After you merge your code, you can delete your branch.
+After merging your code, you can delete your branch.
 
 ## :memo: License
 
