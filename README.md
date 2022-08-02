@@ -64,6 +64,12 @@ This project was develop by using follow tecnologies:
 
 The `<AvatarUpload />` allow users to upload images to make it easier for them to recognize key interface elements related to an organization.
 
+**Custom Props**
+    `description=`'Drop the image here or click to browse'
+    `errorDescription=`'Sorry, the upload failed.'
+    `fileType=`{"image/jpeg', 'image/jpg', 'image/png'"}
+    `label=`'Organization Logo'
+
 ## 🔖 Layout
 
 You can find the component's design [here](https://www.figma.com/file/aiiSV722MgNFBy0WqgfeQL/Challenges?node-id=1%3A19).
